@@ -1,5 +1,12 @@
+import products from './data/data';
+import FilterableProductTable from './components/FilterableProductTable';
+
 function App() {
-  return <div className="App">React Product Data Table </div>;
+  return (
+    <div className="container">
+      <FilterableProductTable products={products} />
+    </div>
+  );
 }
 
 export default App;

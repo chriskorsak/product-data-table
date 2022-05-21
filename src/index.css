@@ -1,1 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+div.container {
+  width: 95%;
+  padding: 1rem;
+}
+
+.search-bar {
+  margin: 1rem 0;
+}
+
+.form-group {
+  margin: 0.5rem 0;
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  min-width: 300px;
+}
+
+.product-table {
+  min-width: 300px;
+  margin: 2rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  div.container {
+    width: 60%;
+  }
+}
