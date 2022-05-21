@@ -1,6 +1,6 @@
 function ProductRow({ product }) {
   return (
-    <tr key={product.name}>
+    <tr>
       <td className={!product.stocked ? 'out-of-stock' : 'undefined'}>
         {product.name}
       </td>

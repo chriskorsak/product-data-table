@@ -2,8 +2,6 @@ import ProductCategoryRow from './ProductCategoryRow';
 import ProductRow from './ProductRow';
 
 function ProductTable({ products }) {
-  // this is where we will add logic to determine which row is a category and which row is a product. Right now, the rows are hard-coded
-
   // sort products by category
   const sortedProductsByCategory = products
     .slice()
